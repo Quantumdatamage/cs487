@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    {% for number in test %}
+    <li>{{ number }}</li>
+    {% empty %}
+    <a>No numbers provided!</a>
+    {% endfor %}
+</ul>
+</body>
+</html>
